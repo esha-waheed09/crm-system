@@ -1,5 +1,4 @@
-const BASE = '/api';
-
+const BASE = 'https://crm-system-production-9e35.up.railway.app/api';
 async function req(method, path, body = null) {
   const opts = { method, headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' } };
   if (body) opts.body = JSON.stringify(body);
