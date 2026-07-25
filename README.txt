@@ -45,12 +45,3 @@ FOLDER STRUCTURE:
       ├── routes/api.php
       └── app/Http/Controllers/Api/
 
-WHAT IT DOES:
-───────────────────────────────────────────────────
-  ✓ Reads/writes directly from crm_db MySQL database
-  ✓ Shows MySQL Connected (green) / Disconnected (red)
-  ✓ Full CRUD: Add leads, convert to customer, etc.
-  ✓ 8 SQL queries execute against real database
-  ✓ Stored procedures: sp_CampaignROI, sp_LeadFunnel
-  ✓ Laravel REST API on http://localhost:8000
-  ✓ React frontend on http://localhost:5173
